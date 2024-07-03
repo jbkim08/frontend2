@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-dark bg-primary navbar-expand-lg">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/">
-          Navbar
+        <a className="navbar-brand text-warning" href="/">
+          리액트 & 스프링부트
         </a>
         <button
           className="navbar-toggler"
@@ -19,11 +19,9 @@ export default function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/home">
-                Home
-              </a>
+              <button className="btn btn-outline-light">유저 추가</button>
             </li>
           </ul>
         </div>
