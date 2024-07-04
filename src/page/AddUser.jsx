@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function AddUser() {
   return (
@@ -46,9 +47,9 @@ export default function AddUser() {
             <button type="submit" className="btn btn-outline-primary px-3 mx-2">
               가입
             </button>
-            <button type="submit" className="btn btn-outline-danger px-3 mx-2">
+            <Link to="/" className="btn btn-outline-danger px-3 mx-2">
               취소
-            </button>
+            </Link>
           </div>
         </div>
       </div>
