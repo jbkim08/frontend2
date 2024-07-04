@@ -29,7 +29,7 @@ export default function AddUser() {
     <div className="container">
       <div className="row">
         <div className="col-md-6 offset-md-3 border rounded p-4 mt-2 shadow">
-          <h2 className="text-center m-4">가입 하기</h2>
+          <h2 className="text-center m-4">유저 추가</h2>
           <form onSubmit={onSubmit}>
             <div className="mb-3">
               <label htmlFor="name" className="form-label">
@@ -78,7 +78,7 @@ export default function AddUser() {
                 type="submit"
                 className="btn btn-outline-primary px-3 mx-2"
               >
-                가입
+                추가
               </button>
               <Link to="/" className="btn btn-outline-danger px-3 mx-2">
                 취소
